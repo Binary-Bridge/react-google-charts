@@ -1,6 +1,6 @@
 {
-  "name": "react-google-charts",
-  "version": "3.0.15",
+  "name": "react-google-charts-bb",
+  "version": "3.0.15-dev.3",
   "type": "react-component",
   "description": "react-google-charts React component",
   "main": "dist/index.cjs.js",
@@ -9,7 +9,6 @@
   "umd": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "precommit": "lint-staged && npm run test",
     "start": "parcel demo/index.html -d demo-build/",
     "build": "rollup -c",
     "test": "tsc",
@@ -51,8 +50,8 @@
     "react-component-component": "^1.2.1",
     "react-dom": "^16.9.0",
     "release": "^6.0.1",
-    "rollup": "^0.63.5",
-    "rollup-plugin-typescript2": "^0.19.3",
+    "rollup": "^0.68.0",
+    "rollup-plugin-typescript2": "^0.23.0",
     "typescript": "^3.4.5"
   },
   "gh-pages-deploy": {
