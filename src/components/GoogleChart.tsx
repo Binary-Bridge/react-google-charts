@@ -215,9 +215,11 @@ export class GoogleChart extends React.Component<Props, State> {
   shouldComponentUpdate(nextProps: Props, nextState: State) {
     return (
       this.state.isReady !== nextState.isReady ||
-      nextProps.controls !== this.props.controls
+      nextProps.controls !== this.props.controls ||
+	  nextProps.height !== this.props.height
     );
   }
+
   renderChart = () => {
     const {
       width,
